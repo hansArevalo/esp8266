@@ -52,8 +52,7 @@ void setup() {
   Serial.println ("");
   Serial.println ("Se conectó al wifi!");
   Serial.println(WiFi.localIP());  
-  Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);    
-
+  Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);  
 
 }
 
